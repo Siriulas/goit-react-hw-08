@@ -54,7 +54,7 @@ export default function ContactsPage() {
       {contacts.length > 0 ? (
         <ContactList />
       ) : (
-        <p className={css.altText}>Add your first contact</p>
+        <p className={css.altText}>Please add contacts</p>
       )}
     </div>
   );
